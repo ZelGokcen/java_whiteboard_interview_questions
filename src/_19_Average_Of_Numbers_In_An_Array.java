@@ -20,6 +20,7 @@ public class _19_Average_Of_Numbers_In_An_Array {
 
     //Testing method
     public static void main(String[] args) {
+
         System.out.println(averageOfNumbers(new int[]{3, 5, 4, 0, -2})); // 2
     }
 }

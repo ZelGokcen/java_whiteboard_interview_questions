@@ -10,6 +10,7 @@ public class _07_Remove_Letters_From_String {
      */
 
     public static String noLetters(String str){
+
         return str.replaceAll("[A-Za-z]", "");
     }
 

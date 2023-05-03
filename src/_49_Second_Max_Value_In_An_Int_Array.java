@@ -22,6 +22,7 @@ public class _49_Second_Max_Value_In_An_Int_Array {
 
     //Testing method
     public static void main(String[] args) {
+
         System.out.println(secondMaxValue(new int[]{-5, 4, 1, 10, 2})); // 4
     }
 }

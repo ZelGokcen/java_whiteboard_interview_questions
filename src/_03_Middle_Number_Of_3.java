@@ -21,6 +21,7 @@ public class _03_Middle_Number_Of_3 {
 
     //Testing method
     public static void main(String[] args) {
+
         System.out.println(getMiddle(4, 4, 5)); // 4
     }
 }

@@ -10,6 +10,7 @@ public class _08_Remove_Specials_From_String {
      */
 
     public static String noSpecials(String str){
+
         return str.replaceAll("[^a-zA-Z0-9 ]", "");
     }
 

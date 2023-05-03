@@ -51,6 +51,7 @@ public class _01_Greatest_Number_Of_3 {
 
     //Testing method
     public static void main(String[] args) {
+
         System.out.println(getGreatest(3, 3, 5)); // 5
     }
 }

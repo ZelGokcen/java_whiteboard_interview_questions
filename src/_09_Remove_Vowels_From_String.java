@@ -10,12 +10,14 @@ public class _09_Remove_Vowels_From_String {
      */
 
     public static String noVowels(String str){
+
         return str.replaceAll("[aeiouAEIOU]", "");
     }
 
 
     //Testing method
     public static void main(String[] args) {
+
         System.out.println(noVowels("Hello World!")); // Hll Wrld!
     }
 }

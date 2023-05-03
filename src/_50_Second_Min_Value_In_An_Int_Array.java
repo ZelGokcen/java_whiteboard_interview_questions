@@ -3,7 +3,8 @@ import java.util.TreeSet;
 
 public class _50_Second_Min_Value_In_An_Int_Array {
     /*
-    Write a method that takes an int array argument and returns the second min value as an int
+    Write a method that takes an int array argument and returns the
+    second min value as an int
     NOTE: Assume length of the array is always more than one
 
     TEST DATA:
@@ -19,10 +20,11 @@ public class _50_Second_Min_Value_In_An_Int_Array {
 
         return new ArrayList<>(uniques).get(1);
     }
-
+// when sorted: [-5, 1, 2, 4, 10] 1 is index 1 which is the second min number
 
     //Testing method
     public static void main(String[] args) {
-        System.out.println(secondMinValue(new int[]{-5, 4, 1, 10, 2})); // 1
+
+    System.out.println(secondMinValue(new int[]{-5, 4, 1, 10, 2})); // 1
     }
 }

@@ -20,6 +20,7 @@ public class _17_Sum_Of_Numbers_In_An_Array {
 
     //Testing method
     public static void main(String[] args) {
+
         System.out.println(sumOfNumbers(new int[]{0, -5, 3, 5, 4})); // 7
     }
 }

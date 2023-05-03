@@ -10,6 +10,7 @@ public class _11_Remove_Uppercase_Letters_From_String {
      */
 
     public static String noUppercaseLetters(String str){
+
         return str.replaceAll("[A-Z]", "");
     }
 

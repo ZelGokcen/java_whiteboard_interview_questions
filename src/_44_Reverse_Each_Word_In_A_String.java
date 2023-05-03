@@ -23,6 +23,7 @@ public class _44_Reverse_Each_Word_In_A_String {
 
     //Testing method
     public static void main(String[] args) {
+
         System.out.println(reverseEachWord("Java is fun")); // avaJ si nuf
     }
 }

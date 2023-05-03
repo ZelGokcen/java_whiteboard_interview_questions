@@ -18,6 +18,7 @@ public class _29_Find_If_String_Is_Palindrome {
      */
 
     public static boolean isPalindrome(String str){
+
         return str.equals(new StringBuilder(str).reverse().toString());
     }
 
